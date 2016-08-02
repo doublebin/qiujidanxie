@@ -1,0 +1,95 @@
+
+/* CSS 初始化 */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,ul,li,ol,span,img,a,em,i,strong,b,input,select,option,textarea,label{ margin:0; padding:0;}
+li{ list-style:none;}
+img{ border:0 none; vertical-align:top;}
+a{ color:#404040; text-decoration:none;}
+a:hover{ color:#ff6400}
+body{ font-family:"宋体"; font-size:12px;min-width:1260px;}
+.clearfix{ zoom:1;}
+.clearfix:after{ content:"."; clear:both; visibility:hidden; height:0; display:block;}
+
+/*主要内容*/
+.nav{ width:1158px; height:25px; padding:8px 0 0 95px;}
+.nav-left{ float:left;}
+.nav-left li{ float:left; line-height:14px; font-size:14px; font-weight:bold; margin-right:31px;}
+.nav-left-first{ padding-right:22px;background:url(../images/nav-left-first.jpg) no-repeat right 4px;}
+.nav-right{ float:right;}
+.nav-right li{ margin:0 0 0 31px;}
+.banner{ width:100%; height:70px; padding-top:426px; background:url(../images/banner.jpg) no-repeat center top #f4e033; border-top:1px solid #f56293;}
+.layer{ width:990px; margin:0 auto;}
+.banner-link{ height:70px; background:url(../images/banner-link.jpg) no-repeat;}
+.banner-link a{ float:left; width:50%; height:70px; overflow:hidden; text-indent:-99em;}
+
+.banner-main{ width:100%; height:657px; padding-top:20px; background:url(../images/yellow.jpg) no-repeat center top #f4e033;} 
+.banner-main ul{ background:#FFF; width:990px; height:428px; margin:0 auto;}
+.banner-main ul li{ float:left; width:47px; overflow:hidden; margin-left:1px; margin-top:-1px; transition:all 1s;}
+.banner-main ul .current{height:100%; width:798px; margin-right:-1px;}
+
+.main{ background:#e04ede no-repeat top center; height:auto; width:100%; position:relative; padding-top:60px;}
+.main .layer h3{ position:absolute; top:-210px;}
+.main .layer h4{ position:absolute; top:-67px;}
+.shop{ overflow:hidden;}
+.shop ul{ float:left; width:110%;}
+.shop ul li{ float:left; margin-top:10px; margin-right:10px; position:relative;} 
+.shop img{ display:block;}
+.shop-hover{ position:absolute; top:0; left:0; height:330px; width:190px;background:rgba(0,0,0,0.3); display:none;}
+.shop-hover dl{ height:33px; width:158px;background:#f0196a; font-size:18px; color:#FFF; line-height:33px; margin-left:9px; float:left; position:absolute; bottom:13px; left:9px; } 
+.shop-hover dt{ float:left; width:67px; border-right:1px solid #f2377d; padding-left:18px;}
+.shop-hover dd{ float:left; padding-left:14px;}
+.shop-hover .bdlink{ width:100%; height:100%; display:block;}
+.shop ul li:hover .shop-hover{ display:block;}
+.pay ul{ width:110%;}
+.pay ul li{ height:242px; width:323px; float:left; background:#FFF; border-right:1px solid #f2b6f1; margin-right:9px;}
+.tit{ position:relative;}
+.tit-text{ background:url(../images/tu.jpg) no-repeat 0 -3px; height:27px; width:112px; position:absolute; top:6px; left:435px; overflow:hidden; text-indent:-99em;}
+.bf ul{ width:110%; padding-top:10px;}
+.bf ul li{ float:left; margin-top:10px; margin-right:11px; position:relative;}
+.img-hover{ border:2px solid #e9d83f; width:100%; height:100%; position:absolute; top:-2px; left:-2px; display:none;}
+.img-hover .img-hover-bd{ width:100%; height:100%; display:block;}
+.img-hover .img-hover-bt{ height:33px; width:158px; position:absolute; bottom:15px; left:8px;}
+img-hover-bt img{ width:180px; height:40px;}
+.bf ul li:hover .img-hover{ display:block;}
+.tit2{ margin-top:54px;}
+.tit2-text{background:url(../images/tu.jpg) no-repeat -1px -42px; height:27px; width:112px; position:absolute; top:6px; left:435px; overflow:hidden; text-indent:-99em;}
+.tit3-text{background:url(../images/tu.jpg) no-repeat -1px -79px;}
+.tit4-text{background:url(../images/tu.jpg) no-repeat -1px -115px;}
+.tit5-text{background:url(../images/tu.jpg) no-repeat 0 -155px;}
+
+.china .title{ background:url(../images/tu3.png) no-repeat 0 -13px; height:74px; width:348px; margin:60px 0 0 320px;}
+.china ul{ width:110%; padding-top:29px; padding-bottom:35px; }
+.china ul li{ float:left;height:310px; width:190px; margin-right:11px; position:relative;}
+.china-hover{ border:2px solid #5c29c4; position:absolute; top:-2px; left:-2px; width:100%; height:100%; display:none;}
+.china-hover-bd{ display:block; height:100%; width:100%;}
+.china-hover-link{ height:36px; width:169px; position:absolute; bottom:6px; left:10px; overflow:hidden; text-indent:-99em;}
+.china ul li:hover .china-hover{ display:block;}
+
+
+
+/*man*/
+.man{ height:auto; width:100%; background:#753ac8; padding-bottom:350px;}
+.man-1{ padding-top:10px;}
+.huasuan{ background:url(../images/tu3.png) no-repeat 0 -99px; height:114px; width:277px; margin:30px 0 0 356px;}
+.white{ width:110%;}
+.white li{ float:left; width:323px; height:242px; background:#FFF; margin-right:9px; border-right:1px solid #c6aee8;} 
+.man3 h6{ background:url(../images/tu3.png) no-repeat -4px -331px; height:39px; width:990px; position:relative;}
+.man-text{ background:url(../images/tu3.png) no-repeat -2px -395px; height:27px; width:112px; position:absolute; top:6px; left:435px; overflow:hidden; text-indent:-99em;}
+.man-text1{background:url(../images/tu3.png) no-repeat -2px -435px;  }
+.man-text2{background:url(../images/tu3.png) no-repeat -2px -475px;  }
+.man-text3{background:url(../images/tu3.png) no-repeat -2px -524px;  }
+
+
+/*fix*/
+.fix{ position:fixed; top:30%; left:90%; z-index:99;}
+.fix a{ color:#FFF;}
+.girl-fix {width:119px;}
+.girl-fix dt{ float:left; width:86px; height:26px; background:url(../images/fix1.jpg) no-repeat left #ff2266; font-size:17px; font-weight:bold; padding:10px 0 0 33px;}
+.girl-fix dd{ float:left; text-align:center; margin-left:2px; font-size:14px; font-weight:bold; height:26px; line-height:26px; background:#e23bdf; width:115px; letter-spacing:10px;}
+.girl-fix i{ display:block; height:1px; border-bottom:1px dashed #f096ee; width:79px; margin:0 auto; margin-top:-3px;}
+.girl-fix .none{ letter-spacing:0px; padding-bottom:4px;}
+.man-fix dd{ background:#6e2ccb;}
+.man-fix i{ border-bottom:1px dashed #b28ee3;}
+.man-fix .none{ padding-bottom:0px;}
+.fix span{ display:block; font-size:16px; font-weight:bold;background:#ff2266; height:28px; width:115px; margin:0 auto; text-align:center;line-height:26px;}
+.fix h3{ height:30px; width:79px; margin:0 auto; background:#333333; padding:11px 0 0 36px;}
+.man-fix .have{ padding-top:10px;}
